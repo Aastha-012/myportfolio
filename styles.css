@@ -1,0 +1,226 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('ahjHe3h.jpg');
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    background-position: center;
+    color: #ffffff;
+}
+
+#about {
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-intro {
+    width: 85%;
+    text-align: left;
+}
+
+.about-photo {
+    width: 30%;
+    height: 40%;
+}
+
+#projects h1 {
+    text-align: center;
+}
+
+header {
+    background-color: rgba(57, 63, 51, 0.8);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ff6c03; /* Change color on hover */
+}
+
+section {
+    padding: 50px;
+}
+
+#projects,
+#certifications,
+#contact {
+    background-color: #8a8a8a00; /* Change section background color */
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.project-tile,
+.certificate-tile {
+    background-color: #21212100; /* Change tile background color */
+    border: 1px solid #dddddd00;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 2px 4px rgb(71, 71, 71); /* Add shadow effect */
+}
+
+.project-tile:hover,
+.certificate-tile:hover {
+    transform: scale(1.05);
+}
+
+.project-tile img,
+.certificate-tile img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.project-tile h3,
+.certificate-tile h2,
+.project-tile p,
+.certificate-tile p,
+.project-tile a,
+.certificate-tile a {
+    color: #ffffff; /* Change text color */
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 8px 15px;
+    background-color: #eeeeee00; /* Change link background color */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+    background-color: #7e7575; /* Change link background color on hover */
+}
+
+#certifications {
+    text-align: center;
+}
+
+#certifications h2 {
+    color: #ffffff;
+}
+
+.marquee-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.marquee-wrapper {
+    display: inline;
+    animation: marquee 25s linear infinite;
+}
+
+.marquee-item {
+    width: 250px;
+    height: 200px;
+    margin: 0 10px;
+    transition: transform 0.3s linear ease-in-out;
+}
+
+.marquee-item:hover {
+    transform: scale(1.1);
+    animation-play-state: paused;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.marquee-item:hover {
+    transform: scale(1.1);
+    animation-play-state: paused; /* Pause animation on hover */
+}
+
+.project-tile {
+    box-shadow: 0 2px 4px rgba(93, 46, 46, 0); /* Add shadow effect */
+}
+
+#projects {
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.main-tiles {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-tile {
+    width: 30%;
+    height: 150px;
+    background-color: #f0f0f031;
+    border: 1px solid #3a3a3a00;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.main-tile:hover {
+    background-color: #575454;
+}
+
+.project-tiles {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.project-tile {
+    width: 30%;
+    background-color: #f0f0f031;
+    border: 1px solid #3a3a3a00;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-tile:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Aastha Singla</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="about-container">
+            <div class="about-intro">
+                <h2>About Me</h2>
+                Greetings! 👋 I am Aastha Singla, an enthusiastic individual deeply passionate about 
+                the realms of Data Science, Artificial Intelligence, and research endeavors. 
+                Currently enrolled in the Computer Science program at Dronacharya College Of Engineering, 
+                my focus spans across the dynamic fields of data analytics and cutting-edge technologies.<br><br>
+                I possess a robust skill set in HTML, CSS, Python, Java, and C languages, 
+                which I seamlessly integrate into my work. My expertise extends to various 
+                data science tools, enabling me to analyze and interpret complex datasets with precision.<br>
+                Actively engaged in the fields of Artificial Intelligence and Machine Learning, I 
+                am driven to contribute to pioneering projects that redefine technological boundaries.<br><br>
+                My commitment lies in the fusion of creativity and functionality to develop 
+                innovative solutions. Through meaningful contributions to research projects, I 
+                aspire to make a positive impact in the ever-evolving landscape of technology. 
+                As 
+                I navigate through my academic and professional journey, my aim is to advance both 
+                Data Science and Artificial Intelligence, shaping a future where 
+                technology meets innovation seamlessly.
+                <br><br>
+
+                Let's connect and explore the endless possibilities in the world of technology together! 🚀
+            </div>
+            <div class="about-photo">
+                <img  src="aastha1.jpg" alt="Profile Picture"/>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h1>Projects</h1>
+    
+        <div class="main-tiles">
+            
+            <div class="main-tile data-tile" onmouseover="showProjects('data')">
+                <h3>Data Science</h3>
+            </div>
+    
+            <div class="main-tile python-tile" onmouseover="showProjects('python')">
+                <h3>Python Based Projects</h3>
+            </div>
+        </div>
+    
+        
+    
+        <div class="project-tiles" id="data-projects">
+            
+            <div class="project-tile">
+                <h3>Data Science Project 1</h3>
+                <p>Project details:- Creating a Bar Chart</p>
+                <a href="https://www.linkedin.com/posts/aastha-singla-b53173224_connections-prodigyinfotech-datascience-activity-7091058707479851008-pe8L?utm_source=share&utm_medium=member_ios">Project Link</a>
+            </div>
+            <div class="project-tile">
+                <h3>Data Science Project 2</h3>
+                <p>Project details:- To perform data cleaning and EDA on a dataset.</p>
+                <a href="https://www.linkedin.com/posts/aastha-singla-b53173224_connections-prodigyinfotech-datascience-activity-7091059383144505344-FeKZ?utm_source=share&utm_medium=member_desktop">Project Link</a>
+            </div>
+            <div class="project-tile">
+                <h3>Data Science Project 3</h3>
+                <p>Project details:- To build a decision tree classifier.</p>
+                <a href="https://www.linkedin.com/posts/aastha-singla-b53173224_connections-prodigyinfotech-datascience-activity-7091059639257067520-FYdZ?utm_source=share&utm_medium=member_desktop">Project Link</a>
+            </div>
+            <div class="project-tile">
+                <h3>Data Science Project 3</h3>
+                <p>Project details:- Iris flower classification.</p>
+                <a href="https://www.linkedin.com/posts/aastha-singla-b53173224_connections-oasisinfobyte-oasisfamily-activity-7092882503098671104-0ytf?utm_source=share&utm_medium=member_desktop">Project Link</a>
+            </div>
+            <div class="project-tile">
+                <h3>Data Science Project 3</h3>
+                <p>Project details:- Unemployment Analysis with Python.</p>
+                <a href="https://www.linkedin.com/posts/aastha-singla-b53173224_connections-oasisinfobyte-oasisfamily-activity-7092883487728238592-n92f?utm_source=share&utm_medium=member_desktop">Project Link</a>
+            </div>
+            <div class="project-tile">
+                <h3>Data Science Project 3</h3>
+                <p>Project details:- Email Spam Detection using Machine Learning.</p>
+                <a href="https://www.linkedin.com/posts/aastha-singla-b53173224_connections-oasisinfobyte-oasisfamily-activity-7092886614825197568-UtgK?utm_source=share&utm_medium=member_desktop">Project Link</a>
+            </div>
+        </div>
+    
+        <div class="project-tiles" id="python-projects">
+            
+            <div class="project-tile">
+                <h3>Python Project 1</h3>
+                <p>Project details...</p>
+                <!-- <a href="#">Project Link</a> -->
+        </div>
+    </section>
+    
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <br>
+        <br>
+        <div class="marquee-container">
+            <div class="marquee-wrapper" id="marqueeWrapper">
+                <img src="8.jpg" alt="Certificate 8" class="marquee-item" onclick="stopMarquee(this)">
+                <img src="9.jpg" alt="Certificate 9" class="marquee-item" onclick="stopMarquee(this)">
+                <img src="10.jpg" alt="Certificate 10" class="marquee-item" onclick="stopMarquee(this)">
+                <img src="11.jpg" alt="Certificate 11" class="marquee-item" onclick="stopMarquee(this)">
+                <img src="12.PNG" alt="Certificate 12" class="marquee-item" onclick="startMarquee(this)">
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/aastha-singla-b53173224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LinkedIn</a>
+            <a href="https://github.com/aastha-012" target="_blank">GitHub</a>
+            <a href="https://www.hackerrank.com/profile/aasthasingla01" target="_blank">HackerRank</a>
+        </div>
+        <p>Email: <a id="gmailLink" href="#" onclick="openGmail();">aasthasingla01@gmail.com</a></p>
+        <script>
+            function openGmail() {
+                const emailAddress = 'aasthasingla01@gmail.com';
+                const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(emailAddress)}`;
+                window.open(gmailLink, '_blank');
+            }
+        </script>
+        <p>Phone: +91 8920673002</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
